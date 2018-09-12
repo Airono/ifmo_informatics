@@ -1,1 +1,0 @@
-ifmo_informatics

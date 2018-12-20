@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+{% for mf in src.university.scienceDivisions.0.megaFaculty %}
+    {% for f in mf.faculties %}
+        {% for p in f.pulpits %}
+            {% for ep in p.educationProgrammes %}
+                <pre>
+            Номер программы: {{ ep.id }}
+            Название программы: {{ ep.name }}
+            Дисциплина: {{ ep.discipline }}
+            Год обучения: {{ ep.year }}
+            Кол-во групп: {{ ep.groups|length }}
+                </pre>
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+</body>
+</html>

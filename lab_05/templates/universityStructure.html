@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+
+Университет {{ src.university.name}} ({{ src.university.director.surname }} {{ src.university.director.name }} {{ src.university.director.patronymic }}) <br>
+|_Административные подразделения: <br>
+{% for ad in src.university.administrativeDivisions %}
+    |&nbsp;&nbsp;|_{{ ad.name }}, ID:({{ ad.id }}, {{ ad.director.surname }} {{ ad.director.name }} {{ ad.director.patronymic }}) <br>
+{% endfor %}
+| <br>
+|_Научно-образовательные подразделения: <br>
+{% for mf in src.university.scienceDivisions.0.megaFaculty %}
+    &nbsp;&nbsp;| <br>
+        &nbsp;&nbsp;|_Мегафакультет "{{ mf.name }}", ID:({{ mf.id }}, {{ mf.director.surname }} {{ mf.director.name }} {{ mf.director.patronymic }}) <br>
+    {% for f in mf.faculties %}
+        &nbsp;&nbsp;|&nbsp;&nbsp;| <br>
+        &nbsp;&nbsp;|&nbsp;&nbsp;|_Факультет "{{ f.name }}", ID:({{ f.id }}, {{ f.director.surname }} {{ f.director.name }} {{ f.director.patronymic }}) <br>
+        {% for p in f.pulpits %}
+            &nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|_Кафедра "{{ p.name }}", ID:({{ p.id }}, {{ p.director.surname }} {{ p.director.name }} {{ p.director.patronymic }}) <br>
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+</body>
+</html>

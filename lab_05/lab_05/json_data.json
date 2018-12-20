@@ -1,0 +1,1613 @@
+{
+  "university": {
+    "name": "ИТМО",
+    "address": {
+      "streetAddress": "Кронверкский пр, 49",
+      "city": "Санкт-Петербург",
+      "postcode": 197101
+    },
+    "director": {
+      "name": "Владимир",
+      "patronymic": "Николаевич",
+      "surname": "Васильев",
+      "position": "Ректор",
+      "id": 1
+    },
+    "administrativeDivisions": [
+      {
+        "name": "Ректорат",
+        "id": 1,
+        "director": {
+          "name": "Владимир",
+          "patronymic": "Николаевич",
+          "surname": "Васильев",
+          "position": "Ректор",
+          "id": 1
+        },
+        "workers": [
+          {
+            "name": "Игорь",
+            "patronymic": "Владимирович",
+            "surname": "Баранов",
+            "position": "Директор мегафакультета биотехнологий и низкотемпературных систем",
+            "id": 2
+          },
+          {
+            "name": "Алексей",
+            "patronymic": "Валентинович",
+            "surname": "Бахолдин",
+            "position": "Декан факультета прикладной оптики",
+            "id": 3
+          },
+          {
+            "name": "Павел",
+            "patronymic": "Александрович",
+            "surname": "Белов",
+            "position": "Декан физико-технического факультета",
+            "id": 4
+          }
+        ]
+      },
+      {
+        "name": "Бухгалтерия",
+        "id": 2,
+        "director": {
+          "name": "Светлана",
+          "patronymic": "Яковлевна",
+          "surname": "Михеева",
+          "position": "Начальник бухгалтерии",
+          "id": 5
+        },
+        "workers": [
+          {
+            "name": "Ольга",
+            "patronymic": "Николаевна",
+            "surname": "Яковлева",
+            "position": "Начальник расчетного отдела",
+            "id": 6
+          },
+          {
+            "name": "Светлана",
+            "patronymic": "Игоревна",
+            "surname": "Захарова",
+            "position": "Начальник материального отдела",
+            "id": 7
+          },
+          {
+            "name": "Елена",
+            "patronymic": "Алексеевна",
+            "surname": "Прудентова",
+            "position": "Начальник управления бухгалтерского учета и контроля",
+            "id": 8
+          }
+        ]
+      }
+    ],
+    "scienceDivisions": [
+      {
+        "megaFaculty": [
+          {
+            "id": 3,
+            "name": "МФ КТУ",
+            "director": {
+              "name": "Василий",
+              "patronymic": "Петрович",
+              "surname": "Нахимов",
+              "position": "Декан",
+              "id": 9
+            },
+            "faculties": [
+              {
+                "id": 4,
+                "name": "Факультет систем управления и робототехники",
+                "director": {
+                  "name": "Анна",
+                  "patronymic": "Васильевна",
+                  "surname": "Дубакова",
+                  "position": "Декан",
+                  "id": 10
+                },
+                "pulpits": [
+                  {
+                    "id": 5,
+                    "name": "Кафедра 1",
+                    "director": {
+                      "name": "Анна",
+                      "patronymic": "Васильевна",
+                      "surname": "Антонова",
+                      "position": "Завкафедры",
+                      "id": 22
+                    },
+                    "workers": [
+                      {
+                        "name": "Петр",
+                        "patronymic": "Сергеевич",
+                        "surname": "Пелевин",
+                        "position": "Преподаватель",
+                        "id": 11
+                      },
+                      {
+                        "name": "Василиса",
+                        "patronymic": "Ивановна",
+                        "surname": "Краснова",
+                        "position": "Преподаватель",
+                        "id": 12
+                      },
+                      {
+                        "name": "Антон",
+                        "patronymic": "Сергеевич",
+                        "surname": "Телевин",
+                        "position": "Преподаватель",
+                        "id": 13
+                      }
+                    ],
+                    "educationProgrammes": [
+                      {
+                        "name": "Интернет-технологии",
+                        "id": 123445,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 116
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M2105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 117
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 118
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 119
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Новые технологии",
+                        "id": 123432,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 120
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "R3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 121
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 122
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 123
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 6,
+                    "name": "Кафедра 2",
+                    "director": {
+                      "name": "Анна",
+                      "patronymic": "Васильевна",
+                      "surname": "Кот",
+                      "position": "Завкафедры",
+                      "id": 233
+                    },
+                    "workers": [
+                      {
+                        "name": "Петр",
+                        "patronymic": "Сергеевич",
+                        "surname": "Пелевин",
+                        "position": "Преподаватель",
+                        "id": 112
+                      },
+                      {
+                        "name": "Василиса",
+                        "patronymic": "Ивановна",
+                        "surname": "Краснова",
+                        "position": "Преподаватель",
+                        "id": 122
+                      },
+                      {
+                        "name": "Антон",
+                        "patronymic": "Сергеевич",
+                        "surname": "Телевин",
+                        "position": "Преподаватель",
+                        "id": 132
+                      }
+                    ],
+                    "educationProgrammes": [
+                      {
+                        "name": "программа",
+                        "id": 123335,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 1162
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "T2105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 1172
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 1182
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 1192
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Еще какие-то технологии",
+                        "id": 123472,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 1202
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 1212
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 1222
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 1232
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "name": "Факультет программной инженерии и компьютерной техники",
+                "director": {
+                  "name": "Анна",
+                  "patronymic": "Васильевна",
+                  "surname": "Примакова",
+                  "position": "Декан",
+                  "id": 134
+                },
+                "pulpits": [
+                  {
+                    "id": 53,
+                    "name": "Кафедра 1",
+                    "director": {
+                      "name": "Анна",
+                      "patronymic": "Васильевна",
+                      "surname": "Антонова",
+                      "position": "Завкафедры",
+                      "id": 232
+                    },
+                    "workers": [
+                      {
+                        "name": "Петр",
+                        "patronymic": "Сергеевич",
+                        "surname": "Пелевин",
+                        "position": "Преподаватель",
+                        "id": 131
+                      },
+                      {
+                        "name": "Василиса",
+                        "patronymic": "Ивановна",
+                        "surname": "Краснова",
+                        "position": "Преподаватель",
+                        "id": 132
+                      },
+                      {
+                        "name": "Антон",
+                        "patronymic": "Сергеевич",
+                        "surname": "Телевин",
+                        "position": "Преподаватель",
+                        "id": 313
+                      }
+                    ],
+                    "educationProgrammes": [
+                      {
+                        "name": "Интернет-технологии",
+                        "id": 132445,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 1136
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 1173
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 1183
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 1193
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Новые технологии",
+                        "id": 123782,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 1230
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 1231
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 1232
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 1233
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 63,
+                    "name": "Кафедра 2",
+                    "director": {
+                      "name": "Анна",
+                      "patronymic": "Васильевна",
+                      "surname": "Кот",
+                      "position": "Завкафедры",
+                      "id": 2333
+                    },
+                    "workers": [
+                      {
+                        "name": "Петр",
+                        "patronymic": "Сергеевич",
+                        "surname": "Пелевин",
+                        "position": "Преподаватель",
+                        "id": 1312
+                      },
+                      {
+                        "name": "Василиса",
+                        "patronymic": "Ивановна",
+                        "surname": "Краснова",
+                        "position": "Преподаватель",
+                        "id": 1232
+                      },
+                      {
+                        "name": "Антон",
+                        "patronymic": "Сергеевич",
+                        "surname": "Телевин",
+                        "position": "Преподаватель",
+                        "id": 1332
+                      }
+                    ],
+                    "educationProgrammes": [
+                      {
+                        "name": "программа",
+                        "id": 128935,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 11623
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 11372
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 11382
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 11392
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Еще какие-то технологии",
+                        "id": 128972,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 12302
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 13212
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 12232
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 12332
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "name": "Факультет безопасности информационных технологий",
+                "director": {
+                  "name": "Анна",
+                  "patronymic": "Васильевна",
+                  "surname": "Филеева",
+                  "position": "Декан",
+                  "id": 18
+                },
+                "pulpits": [
+                  {
+                    "id": 58,
+                    "name": "Кафедра 1",
+                    "director": {
+                      "name": "Анна",
+                      "patronymic": "Васильевна",
+                      "surname": "Антонова",
+                      "position": "Завкафедры",
+                      "id": 228
+                    },
+                    "workers": [
+                      {
+                        "name": "Петр",
+                        "patronymic": "Сергеевич",
+                        "surname": "Пелевин",
+                        "position": "Преподаватель",
+                        "id": 118
+                      },
+                      {
+                        "name": "Василиса",
+                        "patronymic": "Ивановна",
+                        "surname": "Краснова",
+                        "position": "Преподаватель",
+                        "id": 128
+                      },
+                      {
+                        "name": "Антон",
+                        "patronymic": "Сергеевич",
+                        "surname": "Телевин",
+                        "position": "Преподаватель",
+                        "id": 138
+                      }
+                    ],
+                    "educationProgrammes": [
+                      {
+                        "name": "Интернет-технологии",
+                        "id": 128845,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 1168
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 1178
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 1188
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 1198
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Новые технологии",
+                        "id": 123882,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 1208
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 1218
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 1228
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 1238
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 68,
+                    "name": "Кафедра 2",
+                    "director": {
+                      "name": "Анна",
+                      "patronymic": "Васильевна",
+                      "surname": "Кот",
+                      "position": "Завкафедры",
+                      "id": 23389
+                    },
+                    "workers": [
+                      {
+                        "name": "Петр",
+                        "patronymic": "Сергеевич",
+                        "surname": "Пелевин",
+                        "position": "Преподаватель",
+                        "id": 1129
+                      },
+                      {
+                        "name": "Василиса",
+                        "patronymic": "Ивановна",
+                        "surname": "Краснова",
+                        "position": "Преподаватель",
+                        "id": 1229
+                      },
+                      {
+                        "name": "Антон",
+                        "patronymic": "Сергеевич",
+                        "surname": "Телевин",
+                        "position": "Преподаватель",
+                        "id": 1329
+                      }
+                    ],
+                    "educationProgrammes": [
+                      {
+                        "name": "программа",
+                        "id": 199935,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 11629
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 11729
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 11829
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 11929
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Еще какие-то технологии",
+                        "id": 129972,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 12029
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 12129
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 12229
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 12392
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "name": "МФ ТИНТ",
+            "director": {
+              "name": "Василий",
+              "patronymic": "Петрович",
+              "surname": "Нахимов",
+              "position": "Декан",
+              "id": 90
+            },
+            "faculties": [
+              {
+                "id": 43,
+                "name": "Факультет систем управления и робототехники",
+                "director": {
+                  "name": "Анна",
+                  "patronymic": "Васильевна",
+                  "surname": "Дубакова",
+                  "position": "Декан",
+                  "id": 410
+                },
+                "pulpits": [
+                  {
+                    "id": 52,
+                    "name": "Кафедра 1",
+                    "director": {
+                      "name": "Анна",
+                      "patronymic": "Васильевна",
+                      "surname": "Антонова",
+                      "position": "Завкафедры",
+                      "id": 232
+                    },
+                    "workers": [
+                      {
+                        "name": "Петр",
+                        "patronymic": "Сергеевич",
+                        "surname": "Пелевин",
+                        "position": "Преподаватель",
+                        "id": 121
+                      },
+                      {
+                        "name": "Василиса",
+                        "patronymic": "Ивановна",
+                        "surname": "Краснова",
+                        "position": "Преподаватель",
+                        "id": 142
+                      },
+                      {
+                        "name": "Антон",
+                        "patronymic": "Сергеевич",
+                        "surname": "Телевин",
+                        "position": "Преподаватель",
+                        "id": 1433
+                      }
+                    ],
+                    "educationProgrammes": [
+                      {
+                        "name": "Интернет-технологии",
+                        "id": 123225,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 43116
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 11723
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 11328
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 11439
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Новые технологии",
+                        "id": 123902,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 2323
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 12431
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 12522
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 122523
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 634,
+                    "name": "Кафедра 2",
+                    "director": {
+                      "name": "Анна",
+                      "patronymic": "Васильевна",
+                      "surname": "Кот",
+                      "position": "Завкафедры",
+                      "id": 23433
+                    },
+                    "workers": [
+                      {
+                        "name": "Петр",
+                        "patronymic": "Сергеевич",
+                        "surname": "Пелевин",
+                        "position": "Преподаватель",
+                        "id": 15412
+                      },
+                      {
+                        "name": "Василиса",
+                        "patronymic": "Ивановна",
+                        "surname": "Краснова",
+                        "position": "Преподаватель",
+                        "id": 125432
+                      },
+                      {
+                        "name": "Антон",
+                        "patronymic": "Сергеевич",
+                        "surname": "Телевин",
+                        "position": "Преподаватель",
+                        "id": 136452
+                      }
+                    ],
+                    "educationProgrammes": [
+                      {
+                        "name": "программа",
+                        "id": 63535,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 11662
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 117542
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 113582
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 116492
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Еще какие-то технологии",
+                        "id": 128932,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 120632
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 154645,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 121542
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 126422
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 126332
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 84,
+                "name": "Факультет программной инженерии и компьютерной техники",
+                "director": {
+                  "name": "Анна",
+                  "patronymic": "Васильевна",
+                  "surname": "Примакова",
+                  "position": "Декан",
+                  "id": 136344
+                },
+                "pulpits": [
+                  {
+                    "id": 55433,
+                    "name": "Кафедра 1",
+                    "director": {
+                      "name": "Анна",
+                      "patronymic": "Васильевна",
+                      "surname": "Антонова",
+                      "position": "Завкафедры",
+                      "id": 64232
+                    },
+                    "workers": [
+                      {
+                        "name": "Петр",
+                        "patronymic": "Сергеевич",
+                        "surname": "Пелевин",
+                        "position": "Преподаватель",
+                        "id": 133461
+                      },
+                      {
+                        "name": "Василиса",
+                        "patronymic": "Ивановна",
+                        "surname": "Краснова",
+                        "position": "Преподаватель",
+                        "id": 13642
+                      },
+                      {
+                        "name": "Антон",
+                        "patronymic": "Сергеевич",
+                        "surname": "Телевин",
+                        "position": "Преподаватель",
+                        "id": 313346
+                      }
+                    ],
+                    "educationProgrammes": [
+                      {
+                        "name": "Интернет-технологии",
+                        "id": 133465,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 116336
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 116473
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 118343
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 116493
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Новые технологии",
+                        "id": 134482,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 123640
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 126431
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 126432
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 123343
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 6643,
+                    "name": "Кафедра 2",
+                    "director": {
+                      "name": "Анна",
+                      "patronymic": "Васильевна",
+                      "surname": "Кот",
+                      "position": "Завкафедры",
+                      "id": 233643
+                    },
+                    "workers": [
+                      {
+                        "name": "Петр",
+                        "patronymic": "Сергеевич",
+                        "surname": "Пелевин",
+                        "position": "Преподаватель",
+                        "id": 136412
+                      },
+                      {
+                        "name": "Василиса",
+                        "patronymic": "Ивановна",
+                        "surname": "Краснова",
+                        "position": "Преподаватель",
+                        "id": 123542
+                      },
+                      {
+                        "name": "Антон",
+                        "patronymic": "Сергеевич",
+                        "surname": "Телевин",
+                        "position": "Преподаватель",
+                        "id": 133265
+                      }
+                    ],
+                    "educationProgrammes": [
+                      {
+                        "name": "программа",
+                        "id": 128644,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 116235
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 154645,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 114372
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 113682
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 113952
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Еще какие-то технологии",
+                        "id": 129872,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 123002
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 130212
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 120232
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 123302
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 589,
+                "name": "Факультет безопасности информационных технологий",
+                "director": {
+                  "name": "Анна",
+                  "patronymic": "Васильевна",
+                  "surname": "Филеева",
+                  "position": "Декан",
+                  "id": 198
+                },
+                "pulpits": [
+                  {
+                    "id": 5098,
+                    "name": "Кафедра 1",
+                    "director": {
+                      "name": "Анна",
+                      "patronymic": "Васильевна",
+                      "surname": "Антонова",
+                      "position": "Завкафедры",
+                      "id": 22898
+                    },
+                    "workers": [
+                      {
+                        "name": "Петр",
+                        "patronymic": "Сергеевич",
+                        "surname": "Пелевин",
+                        "position": "Преподаватель",
+                        "id": 11908
+                      },
+                      {
+                        "name": "Василиса",
+                        "patronymic": "Ивановна",
+                        "surname": "Краснова",
+                        "position": "Преподаватель",
+                        "id": 12998
+                      },
+                      {
+                        "name": "Антон",
+                        "patronymic": "Сергеевич",
+                        "surname": "Телевин",
+                        "position": "Преподаватель",
+                        "id": 13889
+                      }
+                    ],
+                    "educationProgrammes": [
+                      {
+                        "name": "Интернет-технологии",
+                        "id": 129095,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 116658
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 116578
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 118788
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 118798
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Новые технологии",
+                        "id": 186782,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 128708
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 187218
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 122878
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 198238
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 6889,
+                    "name": "Кафедра 2",
+                    "director": {
+                      "name": "Анна",
+                      "patronymic": "Васильевна",
+                      "surname": "Кот",
+                      "position": "Завкафедры",
+                      "id": 233899
+                    },
+                    "workers": [
+                      {
+                        "name": "Петр",
+                        "patronymic": "Сергеевич",
+                        "surname": "Пелевин",
+                        "position": "Преподаватель",
+                        "id": 118729
+                      },
+                      {
+                        "name": "Василиса",
+                        "patronymic": "Ивановна",
+                        "surname": "Краснова",
+                        "position": "Преподаватель",
+                        "id": 122998
+                      },
+                      {
+                        "name": "Антон",
+                        "patronymic": "Сергеевич",
+                        "surname": "Телевин",
+                        "position": "Преподаватель",
+                        "id": 132998
+                      }
+                    ],
+                    "educationProgrammes": [
+                      {
+                        "name": "программа",
+                        "id": 197835,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 116299
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 117289
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 118299
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 116929
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Еще какие-то технологии",
+                        "id": 10072,
+                        "boss": {
+                          "name": "Имя",
+                          "surname": "Фамилия",
+                          "patronymic": "Отчество",
+                          "id": 120029
+                        },
+                        "discipline": "Парадигмы программирования",
+                        "year": "2017",
+                        "groups": [
+                          {
+                            "name": "M3105",
+                            "students": [
+                              {
+                                "money": 1545,
+                                "position": "Профессор программирования",
+                                "name": "Баскаков",
+                                "surname": "Павел",
+                                "patronymic": "Никитович",
+                                "id": 121209
+                              },
+                              {
+                                "money": null,
+                                "name": "Игратьев",
+                                "surname": "Егор",
+                                "patronymic": "Владимирович",
+                                "id": 122290
+                              },
+                              {
+                                "money": null,
+                                "name": "Горина",
+                                "surname": "Катя",
+                                "patronymic": "Павловна",
+                                "id": 123092
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

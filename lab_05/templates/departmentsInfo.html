@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+{% for mf in src.university.scienceDivisions.0.megaFaculty %}
+    {% for f in mf.faculties %}
+        {% for p in f.pulpits %}
+            ID: {{p.id}} <br>
+            Кафедра: {{ p.name }} <br>
+            Зав. Кафедры: {{ p.director.surname }} {{ p.director.name }} {{ p.director.patronymic }} ({{ p.director.id }}) <br>
+            Преподаватели:
+            <ol>
+                {% for pr in p.workers %}
+                    <li>{{ pr.surname }} {{ pr.name }} {{ pr.patronymic }} ({{ pr.id }}, {{ pr.position }})</li>
+                {% endfor %}
+            </ol>
+            Образовательные программы:
+            <ul>
+                {% for pr in p.educationProgrammes %}
+                    <li>{{ pr.id }} ({{ pr.name }}, {{ pr.discipline }})</li>
+                {% endfor %}
+            </ul>
+            <br><br>
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+
+<table border="{{ fCount }}"  bgcolor="#B698E2" width="100%" cellpadding="10" >
+    <caption><h1 style="background-color:#9080A9;">Students</h1></caption>
+    <tr>
+        <th>Группа</th>
+        <th>Табельный номер</th>
+        <th>ФИО</th>
+        <th>Стипендия</th>
+    </tr>
+    {% for mf in src.university.scienceDivisions.0.megaFaculty %}
+        {% for f in mf.faculties %}
+            {% for p in f.pulpits %}
+                {% for ep in p.educationProgrammes %}
+                    {% for s in ep.groups %}
+                        {% for st in s.students %}
+
+                            <tr>
+                                <td>{{ s.name }}</td>
+                                <td>{{ st.id }} </td>
+                                <td>{{ st.name }} {{ st.surname }} {{ st.patronymic }}</td>
+                                <td>{{ st.money }}</td>
+                            </tr>
+
+
+                        {% endfor %}
+                    {% endfor %}
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
+</table>
+</body>
+</html>

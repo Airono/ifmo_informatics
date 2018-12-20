@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    Университет: {{ src.university.name }}<br>
+    Ректор: {{ src.university.director.name }} {{ src.university.director.patronymic }} {{ src.university.director.surname }} <br>
+    Местоположение: {{ src.university.address.streetAddress }} {{ src.university.address.city }}<br>
+    Кол-во административных подразделений: {{ src.university.administrativeDivisions|length }}<br>
+    Кол-во научно-образовательных подразделений: {{ src.university.scienceDivisions|length }}<br>
+    Кол-во мегафакультетов: {{ mf_count }}<br>
+    Кол-во факультетов:{{ f_count }}<br>
+    Кол-во кафедр: {{ p_count }}<br>
+    Кол-во студентов: {{ st_count }}<br>
+</body>
+</html>
